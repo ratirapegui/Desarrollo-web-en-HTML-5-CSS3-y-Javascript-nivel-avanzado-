@@ -1,0 +1,56 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 0px;
+}
+
+body{
+    background-color:  #181D31;
+    color: #E6DDC4;
+}
+
+/********************************** Header **********************************/
+
+/********************************* Navegador ********************************/
+
+/*********************************** Logo ***********************************/
+
+/*********************************** Menu ***********************************/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.menu-item{
+    list-style-type: none;
+}
+
+h1{
+    text-shadow: 2px 2px gray, 6px 6px black;
+    text-align: center;
+}
+
+/********************************** Main **********************************/
+
+h2{
+    text-shadow: 2px 2px black;
+    font-size:40px ; 
+    text-align: center;
+    color: #678983;
+}
+
+/********************************* Index **********************************/
+
+/******************************** History *********************************/
+
+/********************************** Game **********************************/
+
+/********************************* Footer *********************************/
+
