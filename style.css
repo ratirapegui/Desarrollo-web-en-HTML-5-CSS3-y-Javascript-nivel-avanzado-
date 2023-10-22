@@ -32,6 +32,18 @@ body{
     list-style-type: none;
 }
 
+.title-box{
+    background: url(./assets/images/screen_coding.jpg) 50% 0 fixed ;
+    background-size: cover;
+    min-height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
 h1{
     text-shadow: 2px 2px gray, 6px 6px black;
     text-align: center;
@@ -48,9 +60,81 @@ h2{
 
 /********************************* Index **********************************/
 
+.idx-cards-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    padding: 100px 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.idx-card-box{
+    width: 350px;
+    height: 400px;
+    border: 5px solid #678983;
+    background-color: #E6DDC4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-card-img{
+    width: 100%;
+    margin: 0px;
+}
+
+.idx-card-desc{
+    width: 90%;
+    text-align: center;
+    height: 30px;
+    color:#181D31;
+}
+
+.idx-card-button{
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: #181D31;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    margin-bottom: 20px;
+    color:#F0F5E4;
+}
+
 /******************************** History *********************************/
 
 /********************************** Game **********************************/
 
 /********************************* Footer *********************************/
+
+footer{
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  40px;
+    color: #181D31;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    height: 60px;
+}
+
+.footer-logo{
+    height: 80px;
+}
+
+.footer-text{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
 
