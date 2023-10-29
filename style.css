@@ -107,6 +107,72 @@ h2{
 
 /******************************** History *********************************/
 
+.hist-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hist-card-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    gap: 20px;
+    background-color: linear-gradient(10% #E6DDC4,#181D31 100%);
+}
+
+.hist-card-desc{
+    width: 45%;
+}
+
+.hist-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.hist-video-box{
+    padding: 5px;
+    background-color: black;
+    width: 70%;
+}
+
+.hist-video-bar{
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hist-video-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.hist-game-button:active{
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+
+#video{
+    width: 100%;
+}
+
+#play,#pause,#mute{
+    width: 80px;
+ }
+
+#video-duration{
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 /********************************** Game **********************************/
 
 /********************************* Footer *********************************/
