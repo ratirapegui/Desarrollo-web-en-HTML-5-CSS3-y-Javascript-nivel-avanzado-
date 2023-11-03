@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+    <title>Proyecto-Final</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href='/'>
+
+            </a>
+            <ul class="nav-menu">
+                <li class="menu-item">
+                    <a class="item-link" href="../pages/history.html" title="Pulsar para aprender historia">HISTORIA</a>
+                </li>
+                <li class="menu-item">
+                    <a class="item-link" href="../pages/game.html" title="Pulsar para comenzar a jugar">JUGUEMOS</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="title-box">
+            <h1>JUGUEMOS UN POCO</h1>
+        </div>
+    </header>
+    <main>
+        <section class="game-puzzle">
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            <div class="game-empty-boxes">
+                <div id="empty-box-1" class="game-empty-box">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div id="empty-box-2" class="game-empty-box">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div id="empty-box-2" class="game-empty-box">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>       
+            </div>           
+            <div class="game-img-boxes">
+                <img id="img-box-1" src="../assets/images/game_img_2.png" alt="Imagen 1 de rompezabezas" />
+                <img id="img-box-2" src="../assets/images/game_img_1.png" alt="Imagen 2 de rompezabezas" />
+                <img id="img-box-3" src="../assets/images/game_img_3.png" alt="Imagen 3 de rompezabezas" />         
+            </div>
+            <button id="reset" class="game-puzzle-button hist-game-button">Reiniciar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <img class="footer-logo" src="../assets/images/logo.png" alt="Imagen 'cmd line' logo"/>
+            <p class="footer-text">PROGRAMACION<br>E<br>HISTORIA</p>
+        </div>
+        <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+    </footer>
+
+    <script src="../script_game.js"></script>
+</body>
+</html>
