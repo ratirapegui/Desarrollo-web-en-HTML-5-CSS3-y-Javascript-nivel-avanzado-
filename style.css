@@ -175,6 +175,47 @@ h2{
 
 /********************************** Game **********************************/
 
+.game-puzzle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.game-empty-boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-empty-box{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-img-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+#img-box-1,#img-box-2,#img-box-3{
+    width: 275px;
+    height: 400px;
+}
+
+.game-puzzle-button{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+}
+
 /********************************* Footer *********************************/
 
 footer{
